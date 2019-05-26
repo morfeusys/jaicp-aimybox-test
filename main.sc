@@ -1,4 +1,7 @@
 theme: /Test
   state:
     e!: test
-    a: Test completed successfully!
+    script:
+      Aimybox.response()
+        .text("It works!")
+        .button("Test again")
